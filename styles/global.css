@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #3485FF;
+  --dark-blue: #0D114F;
+  --light-blue: #E0ECFF;
+  --white: #FAFAFA;
+  --red: #E83F5B;
+  --background: #FBFCFF;
+  --overlay: #040911;
+  --icons-details: #A5B0C1;
+
+  --dark-grey: #4D5E77;
+  --grey-blue: #A1B2CD;
+  --grey-light: #E5EAF1;
+
+  --hover-blue: #5699FF;
+  --hover-red: #EA4B65;
+  --hover-grey: #8794A7;
+
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: var(--background);
+}
+body, button, input, textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: 'Open Sans', sans-serif;
+}
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.content header {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.content header img {
+  width: 16.7rem;
+  margin-left: 16rem;
+}
