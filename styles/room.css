@@ -1,0 +1,112 @@
+.content {
+  width: min(112rem, 90%);
+}
+#room header {
+  width: 100%;
+  padding-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#room header img {
+  margin: 0;
+}
+.buttons {
+  display: flex;
+}
+.buttons .button-outlined {
+  margin-right: 0.8rem;
+  padding: 1.1rem 1.6rem;
+}
+.buttons .button a {
+  padding: 1.1rem 2.3rem;
+}
+#question-form {
+  margin-top: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  color: var(--dark-blue);
+  margin-bottom: 2.4rem;
+}
+#question-form form {
+  border: 0.2rem solid var(--grey-blue);
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 1.6rem;
+  
+}
+#question-form form textarea {
+  resize: none;
+  background: none;
+  width: 100%;
+  height: 6.5rem;
+}
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+#question-form form textarea:focus {
+  outline: none;
+}
+#question-form textarea:focus-within form {
+  border: 0.2rem solid var(--blue);
+}
+#question-form form .submit-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+#question-form form .submit-bar button {
+  padding: 0.8rem 2.4rem;
+}
+#question-form form .submit-bar .anonymous-question {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--icons-details);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+#questions .question-wrapper {
+  width: 100%;
+  background: var(--light-blue);
+  padding: 2.4rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+
+}
+#questions .question-wrapper .question-content {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+#questions .question-wrapper .question-content .user-avatar {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+#questions .question-wrapper .question-content .question {
+  color: var(--dark-blue);
+}
+#questions .question-wrapper .question-content #user-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+#questions .question-wrapper .actions {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 2.4rem;
+}
+#questions .question-wrapper .actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  color: var(--dark-grey);
+}

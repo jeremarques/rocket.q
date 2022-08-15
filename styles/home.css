@@ -13,6 +13,27 @@ header {
   grid-area: ilustration;
   background: url(../assets/home-ilustration.svg) top/contain no-repeat;
   height: 100%;
+  background-position-x: -5rem;
+  position: relative;
+}
+#ilustration .ball {
+  background: var(--blue);
+  opacity: 10%;
+  position: fixed;
+}
+.ball.top {
+  width: 57rem;
+  height: 57rem;
+  border-radius: 50%;
+  top: -39rem;
+  left: 122rem;
+}
+.ball.bottom {
+  width: 21rem;
+  height: 21rem;
+  border-radius: 50%;
+  top: 75.6rem;
+  left: 117.2rem;
 }
 main {
   grid-area: content;
@@ -23,6 +44,7 @@ main {
 }
 main .container {
   width: min(36.3rem, 90%);
+  margin-top: -7rem;
 }
 h2 {
   color: var(--dark-blue);
