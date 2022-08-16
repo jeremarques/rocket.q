@@ -1,0 +1,24 @@
+{
+  "name": "rocket-q",
+  "version": "1.0.0",
+  "description": "Prtojeto de chat desenvolvido com Node e Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremarques/rocket.q.git"
+  },
+  "keywords": [],
+  "author": "Jeremias Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremarques/rocket.q/issues"
+  },
+  "homepage": "https://github.com/jeremarques/rocket.q#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

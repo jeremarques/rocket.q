@@ -119,3 +119,29 @@ button.button svg path {
 button.button:hover {
   background: var(--hover-blue);
 }
+
+button.red,
+.button.red {
+  background: var(--red);
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  color: var(--white);
+  padding: 1.1rem 3.2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+button.red:hover,
+.button.red:hover {
+  background: var(--hover-red);
+}
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  color: var(--dark-grey);
+  padding: 1.1rem 3.2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/modal.css">
     <link rel="stylesheet" href="./styles/room.css">
     <title>Sala - Rocket.q</title>
   </head>
@@ -152,6 +153,23 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- Modal -->
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+        <form action="">
+          <label for="password" class="sr-only">Digite sua senha</label>
+          <input type="password" name="password" id="password" placeholder="Digite sua senha">
+          <div class="buttons">
+            <button class="grey">Cancelar</button>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>

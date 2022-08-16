@@ -72,7 +72,7 @@
   font-weight: 400;
 }
 #questions {
-  margin-bottom: 3.4rem;
+  padding-bottom: 3.4rem;
 }
 #questions .question-wrapper {
   width: 100%;
