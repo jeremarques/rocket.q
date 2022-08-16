@@ -71,13 +71,15 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
-
+#questions {
+  margin-bottom: 3.4rem;
+}
 #questions .question-wrapper {
   width: 100%;
   background: var(--light-blue);
   padding: 2.4rem;
   border-radius: 0 0.8rem 0.8rem 0.8rem;
-
+  margin-bottom: 0.8rem;
 }
 #questions .question-wrapper .question-content {
   width: 100%;
@@ -109,4 +111,13 @@
   justify-content: center;
   gap: 0.8rem;
   color: var(--dark-grey);
+}
+#questions .question-wrapper.read {
+  background: var(--grey-medium);
+}
+#questions .question-wrapper.read svg circle {
+  fill: var(--grey-blue);
+}
+#questions .question-wrapper.read .check {
+  display: none;
 }
