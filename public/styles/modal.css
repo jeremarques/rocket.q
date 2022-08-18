@@ -36,9 +36,28 @@
   margin-bottom: 4rem;
   width: min(30.2rem, 100%);
 }
-.buttons {
+.modal .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
+}
+.modal .buttons .button-change {
+  background: var(--blue);
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  color: var(--white);
+  padding: 1.1rem 3.2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background 0.1s ease;
+}
+.modal .buttons .button-change:hover {
+  background: var(--hover-blue);
+}
+.modal .buttons .button-change.red {
+  background: var(--red);
+}
+.modal .buttons .button-change.red:hover {
+  background: var(--hover-red);
 }

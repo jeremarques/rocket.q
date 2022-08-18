@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/modal.css">
-    <link rel="stylesheet" href="./styles/room.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+    <link rel="stylesheet" href="/styles/room.css">
     <title>Sala - Rocket.q</title>
   </head>
   <body>
     <div class="content" id="room">
       <header>
-        <img src="./assets/logo.svg" alt="Logo Rocket.Q" id="logo" />
+        <a href="/">
+          <img src="/images/logo.svg" alt="Logo Rocket.Q" id="logo" />
+        </a>
         <div class="buttons">
-          <button class="button-outlined">
-            #321855
+          <button class="button-outlined" id="room-id" data-id="323243">
+            #323243
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M16.6667 7.5H9.16667C8.24619 7.5 7.5 8.24619 7.5 9.16667V16.6667C7.5 17.5871 8.24619 18.3333 9.16667 18.3333H16.6667C17.5871 18.3333 18.3333 17.5871 18.3333 16.6667V9.16667C18.3333 8.24619 17.5871 7.5 16.6667 7.5Z" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M4.16675 12.5H3.33341C2.89139 12.5 2.46746 12.3244 2.1549 12.0118C1.84234 11.6993 1.66675 11.2754 1.66675 10.8333V3.33332C1.66675 2.8913 1.84234 2.46737 2.1549 2.15481C2.46746 1.84225 2.89139 1.66666 3.33341 1.66666H10.8334C11.2754 1.66666 11.6994 1.84225 12.0119 2.15481C12.3245 2.46737 12.5001 2.8913 12.5001 3.33332V4.16666" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -76,13 +78,13 @@
               </span>
             </div>
             <div class="actions">
-              <a href="#" class="check">
+              <a href="#" class="check" data-id="2">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 6L9 17L4 12" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 Marcar como lida
               </a>
-              <a href="#" class="delete">
+              <a href="#" class="delete" data-id="2">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 6H5H21" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -106,13 +108,13 @@
               </span>
             </div>
             <div class="actions">
-              <a href="#" class="check">
+              <a href="#" class="check" data-id="3">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 6L9 17L4 12" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 Marcar como lida
               </a>
-              <a href="#" class="delete">
+              <a href="#" class="delete" data-id="3">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 6H5H21" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -136,13 +138,13 @@
               </span>
             </div>
             <div class="actions">
-              <a href="#" class="check">
+              <a href="#" class="check" data-id="1">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 6L9 17L4 12" stroke="#3485FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 Marcar como lida
               </a>
-              <a href="#" class="delete">
+              <a href="#" class="delete" data-id="1">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 6H5H21" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z" stroke="#E83F5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -161,15 +163,18 @@
       <div class="modal">
         <h2>Excluir pergunta</h2>
         <p>Tem certeza que você deseja excluir esta pergunta?</p>
-        <form action="">
+        <form action="#" method="POST">
           <label for="password" class="sr-only">Digite sua senha</label>
           <input type="password" name="password" id="password" placeholder="Digite sua senha">
           <div class="buttons">
-            <button class="grey">Cancelar</button>
-            <button class="red">Sim, excluir</button>
+            <button class="grey cancel">Cancelar</button>
+            <button class="button-change">Sim, excluir</button>
           </div>
         </form>
       </div>
     </div>
+
+    <script src="/scripts/main.js" defer type="module"></script>
+
   </body>
 </html>

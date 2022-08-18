@@ -11,7 +11,7 @@ header {
 }
 #ilustration {
   grid-area: ilustration;
-  background: url(../assets/home-ilustration.svg) top/contain no-repeat;
+  background: url(/images/home-ilustration.svg) top/contain no-repeat;
   height: 100%;
   background-position-x: -5rem;
   position: relative;
