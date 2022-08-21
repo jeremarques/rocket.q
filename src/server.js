@@ -4,6 +4,8 @@ const path = require('path')
 
 const server = express()
 
+const port = process.env.PORT || 3000
+
 server.set('view engine', 'ejs')
 
 server.use(express.static("public"))
@@ -14,5 +16,5 @@ server.use(express.urlencoded({extended: true}))
 
 server.use(route)
 
-server.listen(8080, () => console.log(`This server is online!`))
+server.listen(port, () => console.log(`This server is online!`))
 
